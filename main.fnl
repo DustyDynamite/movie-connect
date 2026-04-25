@@ -11,11 +11,5 @@
 (fn get-table [table_name]
   (sql.get-db-table db table_name))
 
-(fn artists []
-  (get-table "artists"))
-
-(fn tracks []
-  (get-table "tracks"))
-
 ;; Enter repl with functions
 (assert nil "Entering repl")
